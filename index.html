@@ -9,54 +9,58 @@
   </head>
   <body>
 
-<div class="container bg-light d-flex">
+<div class="container bg-light d-flex justify-content-between align-items-center">
  
     <!-- This is the instagram logo -->
-    <div class="mr-auto p-2 d-flex justify-content-center">
+    <div class="p-2">
       <i class="bi bi-instagram p-2"><strong> Instagram</strong></i>
     </div>
-
+    <!-- Right Aligned Items -->
+     <div class="d-flex align-items-center">
     <!-- Button trigger modal -->
-    <div class="p-2">
-    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Create a new post
-    </button>
-    
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="p-2">
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Create a new post
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+              Caption:
+            </div>
+            <div class="form-group p-2">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Write your caption in here">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+  <!-- This is the settings wheel -->
+
+  <div class="dropdown p-2">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-gear"></i>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Profile</a></li>
+      <li><a class="dropdown-item" href="#">Accesibility</a></li>
+      <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+    </ul>
   </div>
 
-<!-- This is the settings wheel -->
-
-<div class="dropdown p-2">
-  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <i class="bi bi-gear"></i>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Profile</a></li>
-    <li><a class="dropdown-item" href="#">Accesibility</a></li>
-    <li><a class="dropdown-item" href="#">Privacy and data</a></li>
-  </ul>
 </div>
-
 </div>
-
 
 <div class="container p-2">
 <!-- Nav tabs -->
@@ -72,33 +76,33 @@
 <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
   <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
     <div class="container">
-      <div class="row my 5">
-        <div class="col-lg col-4 float-right">
-          <img src="https://w0.peakpx.com/wallpaper/764/34/HD-wallpaper-german-shepherd-dog-dog-forest-hunting-dogs-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem;" alt="dog">
+      <div class="row my-2">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://w0.peakpx.com/wallpaper/764/34/HD-wallpaper-german-shepherd-dog-dog-forest-hunting-dogs-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog">
         </div>
-        <div class="col-lg-4">
-          <img src="https://w0.peakpx.com/wallpaper/821/495/HD-wallpaper-german-shepherd-dog-german-shepherd-animals-dog-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem" alt="dog2">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://w0.peakpx.com/wallpaper/821/495/HD-wallpaper-german-shepherd-dog-german-shepherd-animals-dog-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog2">
         </div>
-        <div class="col-lg-4">
-          <img src="https://w0.peakpx.com/wallpaper/524/533/HD-wallpaper-german-shepherd-dog-big-dog-forest-brown-black-dog-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem;" alt="dog3">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://w0.peakpx.com/wallpaper/524/533/HD-wallpaper-german-shepherd-dog-big-dog-forest-brown-black-dog-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog3">
         </div>
-        <div class="col-sm-4">
-          <img src="https://w0.peakpx.com/wallpaper/764/34/HD-wallpaper-german-shepherd-dog-dog-forest-hunting-dogs-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem;" alt="dog">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog">
         </div>
-        <div class="col-sm-4">
-          <img src="https://w0.peakpx.com/wallpaper/821/495/HD-wallpaper-german-shepherd-dog-german-shepherd-animals-dog-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem" alt="dog2">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://cdn.britannica.com/36/234736-050-4AC5B6D5/Scottish-fold-cat.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog2">
         </div>
-        <div class="col-sm-4">
-          <img src="https://w0.peakpx.com/wallpaper/524/533/HD-wallpaper-german-shepherd-dog-big-dog-forest-brown-black-dog-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem;" alt="dog3">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://cdn.theatlantic.com/thumbor/OgQgHFiqAd92pArI1zjmcUHjoSc=/144x0:2411x1700/1200x900/media/img/mt/2017/06/shutterstock_319985324/original.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog3">
         </div>
-        <div class="col-sm-4">
-          <img src="https://w0.peakpx.com/wallpaper/764/34/HD-wallpaper-german-shepherd-dog-dog-forest-hunting-dogs-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem;" alt="dog">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://www.thoughtco.com/thmb/OqANUu4U3tNL1Uo2n19uX6PzbM8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/red_kangaroo-24c18ab08dc145f1a798abd4b820390a.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog">
         </div>
-        <div class="col-sm-4">
-          <img src="https://w0.peakpx.com/wallpaper/764/34/HD-wallpaper-german-shepherd-dog-dog-forest-hunting-dogs-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem;" alt="dog">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://cdn.mos.cms.futurecdn.net/ETb2xLjvc62eb7PPLspSsU-1200-80.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog">
         </div>
-        <div class="col-sm-4">
-          <img src="https://w0.peakpx.com/wallpaper/764/34/HD-wallpaper-german-shepherd-dog-dog-forest-hunting-dogs-pets-thumbnail.jpg" class="card-img-top img-thumbnail" style="width: 18rem;" alt="dog">
+        <div class="col-lg-4 col-md-6 p-0">
+          <img src="https://c.files.bbci.co.uk/0403/production/_133172010_adultredkangeroo.jpg" class="card-img-top img-thumbnail" style="width: 100%; height: 100%;" alt="dog">
         </div>
       </div>
     </div>
@@ -108,7 +112,7 @@
     <div class="container">
       <div class="row my 5">
         <div class="card p-2 m-2" style="width: 36rem;">
-          <div class="card-header"><h3>Leo el mejor del  mundo</h3></div>
+          <div class="card-header d-flex justify-content-between align-items-center"><h3>Leo el mejor del  mundo</h3> <h5>8/26</h5></div>
           <img src="https://www.fifpro.org/media/fhmfhvkx/messi-world-cup.jpg?rxy=0.48356841796117644,0.31512414378031967&width=1600&height=1024&rnd=133210253587130000" class="card-img-top" alt="messi-world-cup">
           <div class="card-body">
             <h5 class="card-title"><strong>1,999,999 likes</strong></h5>
@@ -121,7 +125,7 @@
     <div class="container">
       <div class="row my 5">
         <div class="card p-2 m-2" style="width: 36rem;">
-          <div class="card-header"><h3>Rondon el Gladiador</h3></div>
+          <div class="card-header d-flex justify-content-between align-items-center"><h3>Rondon el Gladiador</h3> <h5>8/26</h5></div>
           <img src="https://media.lavinotinto.com/cms/wp-content/uploads/2023/09/f97da4a1-salomon_rondon_venezuela_paraguay_2023_fifa_1349-800x500.jpeg" class="card-img-top" alt="Rondon">
           <div class="card-body">
             <h5 class="card-title"><strong>300,000 likes</strong></h5>
@@ -135,7 +139,7 @@
   <div class="container">
     <div class="row my 5">
       <div class="card p-2 m-2" style="width: 36rem;">
-        <div class="card-header"><h3>Lamine Yamal</h3></div>
+        <div class="card-header d-flex justify-content-between align-items-center"><h3>Lamine Yamal</h3><h5>8/26</h5></div>
         <img src="https://imageio.forbes.com/specials-images/imageserve/667fe38945aa24fb861383fa/FC-Barcelona-ace-Lamine-Yamal-can-become-a-European-champion-/960x0.jpg?format=jpg&width=960" class="card-img-top" alt="lamine-yamal">
         <div class="card-body">
           <h5 class="card-title"><strong>100,000 likes</strong></h5>
